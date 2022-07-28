@@ -1,11 +1,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 
 #title {
     background-color:#ff4c68;
     color: white;
+    
   
     
 }
@@ -22,7 +24,9 @@ h1 {
 .container-fluid {
     background-color: #ff4c68;
     padding: 3% 17%;
-    overflow: hidden;
+  
+    
+    
     
 }
 
@@ -93,17 +97,21 @@ h1 {
     height: 65vh;
     width: auto;
     transform: rotate(20deg);
-    margin-bottom: -240px;
+    position: absolute;
+    top: 2px;
+    left: 700px;
+   
 }
 
 /* Selling Points */
 
-.features-box{
+#features{
     text-align: center;
     align-content: center;
-    margin:5% 5% 5% 5%;
-    padding: 2% 2%;
-
+    padding: 10% 10%;
+    background-color: white;
+    position: relative;
+    
 }
 
 
@@ -175,4 +183,22 @@ h1 {
 
 .carousel-item {
     padding: 7% 15%
+}
+
+h2,
+h3 {
+    font-weight: 900;
+}
+
+.card-text {
+    color:gray
+}
+
+.pricing-heading {
+    text-align: center;
+    margin: 40px;
+}
+
+.card-deck {
+    margin-bottom: 100px;
 }
