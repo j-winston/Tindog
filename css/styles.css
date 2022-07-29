@@ -7,9 +7,6 @@ body {
 #title {
     background-color:#ff4c68;
     color: white;
-    
-  
-    
 }
 
 
@@ -24,10 +21,7 @@ h1 {
 .container-fluid {
     background-color: #ff4c68;
     padding: 3% 17%;
-  
-    
-    
-    
+    overflow: hidden;    
 }
 
 
@@ -91,17 +85,34 @@ h1 {
     margin: 5% 3% 5% 0%
 }
 
-/* Title Image */
-
 #iphone-img {
     height: 65vh;
     width: auto;
     transform: rotate(20deg);
-    position: absolute;
+    position:absolute;
     top: 2px;
     left: 700px;
-   
 }
+
+
+@media (max-width: 1080px) {
+#iphone-img {
+    height: 65vh;
+    width: auto;
+    transform: rotate(0deg);
+    position:static;
+}
+    #title {
+        text-align:center;
+    }
+
+}
+
+
+ 
+
+
+
 
 /* Selling Points */
 
@@ -110,8 +121,8 @@ h1 {
     align-content: center;
     padding: 10% 10%;
     background-color: white;
-    position: relative;
-    
+    /* position: relative; */
+    /* overflow: hidden; */
 }
 
 
@@ -201,4 +212,44 @@ h3 {
 
 .card-deck {
     margin-bottom: 100px;
+}
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+
+}
+
+.cta-container {
+    font: "montserrat-black", sans-serif;
+    padding: 80px;
+    text-align: center;
+    color:white;
+    
+}
+
+#cta-tagline {
+    margin-bottom: 40px;
+}
+
+/* Footer */
+
+#footer {
+    color:gray;
+    text-align: center;
+    padding: 75px;
+}
+
+#button-container {
+    margin-bottom: 40px;
+}
+
+
+.fa-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-envelope {
+    margin: 0px 10px;
+    color:black;
 }
