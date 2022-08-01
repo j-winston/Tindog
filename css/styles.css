@@ -1,20 +1,52 @@
+
+/*HTML Selectors*/
+
 body {
     font-family: 'Montserrat', sans-serif;
-    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:900;
+
+}
+
+
+p {
+    color: #8f8f8f;
 }
 
 
 #title {
     background-color:#ff4c68;
     color: white;
+
+}
+
+#title-box {
+    padding-left: 0px;
 }
 
 
-h1 {
+/* Headings */
+
+.big-heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
+}
+
+
+#section-heading {
+    font-size:3rem;
+    font: "montserrat-bold";
+   
+}
+
+
+.price-text {
+    font-size: 3rem;
 }
 
 
@@ -56,7 +88,6 @@ h1 {
     color: white;
     padding:0 0 4.5rem;
    
-
 }
 
 
@@ -121,8 +152,10 @@ h1 {
     align-content: center;
     padding: 10% 10%;
     background-color: white;
-    /* position: relative; */
-    /* overflow: hidden; */
+}
+
+.feature-title {
+    font-size: 1.5rem;
 }
 
 
@@ -180,6 +213,7 @@ h1 {
 
 }
 
+
 .street-cred {
     text-align:center;
     height: 30px;
@@ -196,10 +230,7 @@ h1 {
     padding: 7% 15%
 }
 
-h2,
-h3 {
-    font-weight: 900;
-}
+
 
 .card-text {
     color:gray
@@ -222,11 +253,9 @@ h3 {
 }
 
 .cta-container {
-    font: "montserrat-black", sans-serif;
     padding: 80px;
     text-align: center;
     color:white;
-    
 }
 
 #cta-tagline {
